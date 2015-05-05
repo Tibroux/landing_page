@@ -82,30 +82,52 @@ footer {
 	margin: 3rem 0 0;
 	padding: 1rem 6% 0;
 }
+footer ul {
+	display: inline-block;
+}
 .moitA {
 	width: 75%;
-	display: inline-block;
 }
 .moitB {
-	width: 13%;
+	width: 24%;
+}
+.moitB li {
 	display: inline-block;
 }
-.site a {
-	width: 100%;
+/*.share {
+	width: 14rem;
 	height: 3rem;
-}
-.share {
-	display: inline-block;
+}*/
+.site {
+	position: relative;
+	top: -.6rem;
 }
 .decal {
-	width: 4rem;
-	height: 1.7rem;
+	width: 4.5rem;
+	height: 28px;
+	position: relative;
+	top: -.6rem;
 	/*background: green;*/
 }
-}
-.icon a {
-	width: 1.6rem;
-	height: 1.6rem;
+li.icon {
+	width: 29px;
+	height: 30px;
+	margin-right: .25rem;
 	/*background: red;*/
 }
+.icon a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/icons.png);
+	background-position: -1px 0;
+}
+.icon a:hover {
+	background-position: -1px -30px;
+}
+#fb {
+	background-position: -30px 0;
+}
+#fb:hover {
+	background-position: -30px -30px;
 }
