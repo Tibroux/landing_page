@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Yeti-App</title>
+    <meta name="author" content="Tiby Voesters"/>
+    <meta name="description" content="Tiby Voesters, étudiant en Web et Multimédia. TFE, web-app Yeti."/>
+    <meta name="keywords" content="tiby,voesters,yeti,dwm,todo,tfe,extranet,horaire,etudiant,etudiants,projets,student,students"/>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
 <body>
 <header>
 	<ul>
-		<li><h1>YETI</h1></li>
-		<li class="app"><img src="img/app_landing.png" alt="Écran de connexion"></li>
+		<li class="title_app"><h1>YETI</h1></li>
+		<li class="intro">Une application qui vous permettra de voir votre horaire d'école et vos calendrier<br>pour créer vos tâches de la journée.</li>
 		<li class="accroche">"Je vis au jour le jour, mais j'ai tout prévu."</li>
 	</ul>
+	<a href="app/index.php" class="app"><img src="img/app_landing.png" alt="Écran de connexion"></a>
 </header>
 <div class="content">
 	<table class="colums">
@@ -23,7 +28,7 @@
 		<tr class="answers">
 			<td class="left">Les étudiants qui souhaitent s'organiser.</td>
 			<td>Parce-que vous avez une vie bien remplie, profitez en.</td>
-			<td class="right"><a href="#">Le mieux, c'est de le voir...</a></td>
+			<td class="right"><a href="app/index.php">Le mieux, c'est de le voir...</a></td>
 		</tr>
 	</table>
 	<footer>
@@ -32,8 +37,16 @@
 		</ul>
 		<ul class="moitB">
 			<li class="decal">Partager :</li>
-			<li class="icon"><a id="tw" href="#"></a></li>
-			<li class="icon"><a id="fb" href="#"></a></li>
+			<li class="icon"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.tibyvoesters.be/tfe/index.html" data-text="Yeti-app.com" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+			<li id="fb" class="icon"><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><div class="fb-share-button" data-href="https://www.tibyvoesters.be/tfe/index.html" data-layout="button"></div></li>
 		</ul>
 	</footer>
 </div>
