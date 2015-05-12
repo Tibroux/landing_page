@@ -118,6 +118,9 @@ footer ul {
 	top: -.2rem;
 	margin-left: .3rem;
 }
+/*a.pluginShareButtonLink {
+	text-decoration: none; --- Fonctionne pas !!!
+}*/
 /*li.icon {
 	width: 29px;
 	height: 30px;
